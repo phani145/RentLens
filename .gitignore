@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Streamlit
+.streamlit/*
+!.streamlit/config.toml
+*.log
+
+# ChromaDB & Vector Store
+chroma_db/
+.chroma/
+
+# Uploaded & Temporary files
+temp/
+tmp/
+exports/
+*.pdf
+!sample_data/*.pdf
+
+# Environment
+.env
+.DS_Store
+Thumbs.db
